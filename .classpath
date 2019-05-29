@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_144">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/D-_InteliJIDEA_mav_apache-tomcat-8.0.33">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsp-api-2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/visualvm/platform/modules/org-openide-text.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/visualvm/platform/modules/locale/org-openide-text_zh_CN.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/visualvm/platform/modules/locale/org-openide-text_ja.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/missioncontrol/plugins/org.eclipse.text_3.5.300.v20130515-1451.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/missioncontrol/plugins/org.eclipse.text.nl_zh_4.4.0.v20140623020002.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/missioncontrol/plugins/org.eclipse.text.nl_ja_4.4.0.v20140623020002.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/missioncontrol/plugins/org.eclipse.jface.text.nl_ja_4.4.0.v20140623020002.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/missioncontrol/plugins/org.eclipse.jface.text_3.9.1.v20140827-1810.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

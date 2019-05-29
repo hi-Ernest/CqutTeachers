@@ -1,0 +1,211 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	border:0px;	
+	padding: 0px;
+}
+
+body{
+	/* width:100%; */
+	width: 1920px;
+	height: 900px;	
+	border:solid 1px gray;
+	margin: 0 auto;
+	background-color:white;
+}
+.container{
+	width: 1600px;
+	height: 900px;
+	margin: 0 auto;
+}
+.head{
+	width: 1600px;
+	height: 150px;
+}
+.headTop{
+	width: 1600px;
+	height: 70px;
+}
+.titleline{
+	float: left;
+	width: 500px;
+	height: 5px;
+	background-color:#C1C1C1;
+	position: relative;
+	top: 30px;
+}
+.title{
+	float: left;
+	width: 600px;
+	height: 30px;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 20px;
+	color:#8DB6CD;
+}
+.headBottom{
+	width: 1600px;
+	height: 80px;	
+}
+.addDutton,.upDutton{
+	background-color:#96CDCD;
+}
+.deleteDutton,.downDutton{
+	background-color:#8FBC8F;
+}
+.deleteDutton,.addDutton,.upDutton,.downDutton{
+	width: 150px;
+	height: 50px;color: white;
+	font-size: 15px;
+}
+.content{
+	width: 1600px;
+	height: 600px;
+	border:solid 1px #C1C1C1;
+	margin: 0px 0px 20px;
+}
+.tab{
+	width: 1600px;
+	height: 600px;
+	border: 0;
+	border-collapse: collapse;
+}
+th{
+	height: 60px;
+	border-right:0;
+}
+a{
+	text-decoration: none;	
+}
+td{
+	height: 54px;
+	text-align: center;
+	border-right:0;
+}
+.backgroundColor2{
+	/* background-color: white; */
+}
+.backgroundColor1{
+	/* background-color: #E0E6DC; */
+}
+#c9{
+	width: 200px;
+	cursor: pointer;
+}
+.operator1 {
+	width: 75px;
+	margin: 0px 0px 0px 20px;
+}
+.operator2{
+	width: 75px;
+	margin: 0px 20px 0px 0px;	
+}
+.operator1 span ,.operator2 span{
+	color:red;
+	cursor:pointer;
+}
+.footer{
+	width: 1600px;
+	height: 130px;
+}
+.footerLeft{
+	float: left;
+	width: 780px;
+	height: 50px;
+}
+.footerRight{ 
+	width: 800px;
+	height: 130px;
+	float: right;
+}
+.upDutton,.downDutton{
+	float: right;
+	margin:0 0 0 10px;
+}
+.backgroundcolor{
+	width: 1920px;
+	height: 900px;
+	background-color: black;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	position:relative;
+	top: -900px;
+	display:none;
+	z-index: 2;
+}
+.addInterface,.amendInterface,.checkInterface{
+	width: 500px;
+	height: 450px;
+	position:relative;
+	top: -1650px;
+	left:700px;
+	display:none;
+	z-index: 3;
+	background-color: white;
+}
+.deleteInterface{
+	width: 500px;
+	height: 150px;
+	position:relative;
+	top: -1450px;
+	left:700px;
+	display:none;
+	z-index: 3;
+	background-color: white;	
+}
+.deletedutton{
+	position:relative;
+	top: 50px;
+	left: 100px;
+}
+.interface-top{
+	width: 500px;
+	height: 30px;
+	background-color: gray;
+	font-size: 25px;
+	color: white;
+}
+.interface-middle{
+	width: 400px;
+	height:300px;
+	margin: 10px auto;
+}
+input{
+	border:solid 1px black;
+}
+#interface-from{
+	text-align: center;
+	position: relative;
+	top: 30px;
+	left:100px
+}
+.interface-bottom{
+	width: 500px;
+	height: 100px;
+}
+
+#after-from{
+	position: relative;
+	top: 20px;
+	left: 280px	;
+}
+.submitDutton ,.CancelDutton,.saveDutton,.ensureDutton{
+	position: relative;
+    right: -77px;
+    bottom: -10px;
+    width: 58px;
+    height: 36px;
+    color: 	#9E9E9E;
+    font-size: 18px;
+}
+.submitDutton,.saveDutton {
+	background-color: #C1FFC1;
+}
+.CancelDutton{
+	background-color:white;		
+}
+.ensureDutton{
+	position: relative;
+	left:100px	
+}

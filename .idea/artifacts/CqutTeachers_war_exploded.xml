@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CqutTeachers:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/CqutTeachers_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CqutTeachers" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.18-bin" />
+        </element>
+      </element>
+      <element id="library" level="module" name="mysql-connector-java-5.1.18-bin.jar" module-name="CqutTeachers" />
+      <element id="library" level="module" name="jsp-api-2.1.jar" module-name="CqutTeachers" />
+      <element id="library" level="module" name="servlet-api.jar" module-name="CqutTeachers" />
+      <element id="javaee-facet-resources" facet="CqutTeachers/web/Web" />
+    </root>
+  </artifact>
+</component>
